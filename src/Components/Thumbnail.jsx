@@ -16,14 +16,15 @@ export default function Thumbnail() {
 
   return (
     <>
-      <div>
-        This is the section for thumbnail images. Here we render a list of my
-        images and give each of them a key.
+      <div className="thumbnailContainer">
         <ul>
           {thumbnailItems.map((item) => (
-            <li key={item.id}>
-              <img src={item.url} alt={item.alt} />
-            </li>
+            <img
+              className="thumbnailImages"
+              key={item.id}
+              src={item.url}
+              alt={item.alt}
+            />
           ))}
           {/* <li>Tools</li>
           <li>A method to render all images</li>
