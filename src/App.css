@@ -6,9 +6,6 @@
   display: grid;
   grid-template-columns: 0.1fr 2fr 1fr;
   grid-auto-rows: 1fr 1fr 1fr 1fr 1fr;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   box-sizing: border-box;
   background-color: rgb(255, 255, 255);
   max-height: 100vh;

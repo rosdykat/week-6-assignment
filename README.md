@@ -16,3 +16,7 @@ What errors or bugs did you encounter while completing your assignment? How did 
 What went really well and what could have gone better?
 
 ## references
+
+CSS references:
+https://www.w3schools.com/css/css_display_visibility.asp
+https://www.w3schools.com/css/css3_object-fit.asp
