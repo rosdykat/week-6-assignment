@@ -1,6 +1,7 @@
 // ! My code is all in App, but use different components!
 
 import "./App.css";
+import Thumbnail from "./Components/Thumbnail.jsx";
 
 export default function App() {
   // state
@@ -19,7 +20,8 @@ export default function App() {
     <>
       <h1>My Gallery</h1>
       <main>
-        <div>
+        <Thumbnail />
+        {/* <div>
           This is the section for thumbnail images. Here we render a list of my
           images and give each of them a key.
           <ul>
@@ -30,7 +32,7 @@ export default function App() {
               handle switching between images
             </li>
           </ul>
-        </div>
+        </div> */}
         <div>
           This is the section for the larger images. This container is
           conditionally rendered
