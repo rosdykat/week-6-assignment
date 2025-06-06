@@ -1,12 +1,10 @@
 .fullscreenImage {
   height: 100vh;
   width: 100vw;
-  position: absolute;
 }
 
 .fullscreenImage img {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  position: absolute;
 }

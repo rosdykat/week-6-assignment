@@ -10,25 +10,3 @@ export default function FullScreenImage({ image, onClose }) {
     </div>
   );
 }
-
-// export default function FullScreenImage(props) {
-//   const [showContent, setShowContent] = useState(false);
-
-//   function handleClick() {
-//     setShowContent(!showContent);
-//   }
-
-//   return (
-//     <>
-//       <div className="fullscreenImage" onClick={() => handleClick()}>
-//         <img src={props.src} alt={props.alt} />
-//       </div>
-
-//       {showContent ? (
-//         <div className="overlay" onClick={handleClick}>
-//           <img className="fullImage" src={props.src} alt={props.alt} />{" "}
-//         </div>
-//       ) : null}
-//     </>
-//   );
-// }

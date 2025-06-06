@@ -5,9 +5,8 @@
   box-sizing: border-box;
   /* ! I would always apply a grid, but for this type of website it just made things way more complicated than what it needed to be */
   /* display: grid;
-  grid-template-columns: 0.1fr 2fr 1fr;
-  grid-auto-rows: 1fr 1fr 1fr 1fr 1fr; */
-  /* max-height: 100vh;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 1fr 1fr;
+  max-height: 100vh;
   max-width: 100vw; */
-  background-color: bisque;
 }
