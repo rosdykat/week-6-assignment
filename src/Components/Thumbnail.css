@@ -1,17 +1,23 @@
-.thumbnailContainer ul {
-  /* grid-area: 1 / 2 / span 1 / span 1; */
-  display: flex;
-
-  /* width: 80%; */
-  /* margin: auto; */
-  border: 1px solid;
-  margin-top: 3%;
+.thumbnailContainer {
   position: absolute;
+  width: 50%;
+  padding: 10px;
   z-index: 5;
+  text-align: center;
+}
+
+.thumbnailContainer ul {
+  background-color: bisque;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 10px;
+  margin: 0;
 }
 
 .thumbnailImages {
   height: 100px;
   width: 100px;
-  object-fit: contain;
+  object-fit: fill;
 }
