@@ -1,22 +1,32 @@
 .thumbnailContainer {
+  display: flex;
   position: absolute;
-  width: 50%;
-  padding: 10px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: px;
   z-index: 5;
-  text-align: center;
+  justify-content: center;
+  pointer-events: auto;
 }
 
 .thumbnailContainer ul {
-  background-color: bisque;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  background-color: white;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
   margin-left: 40%;
   margin-right: 40%;
-  padding: 10px;
+  padding: 25px;
   margin: 0;
+  border: 5px solid orange;
+  border-bottom: 0;
 }
 
+.thumbnailImages:hover {
+  border: 5px solid orange;
+}
 .thumbnailImages {
+  border-radius: 55px;
   height: 100px;
   width: 100px;
   object-fit: fill;
