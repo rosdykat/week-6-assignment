@@ -2,6 +2,7 @@
 
 import "./App.css";
 import Thumbnail from "./Components/Thumbnail.jsx";
+// import FullScreenImage from "./Components/FullScreenImage.jsx";
 
 export default function App() {
   // state
@@ -18,33 +19,10 @@ export default function App() {
   // !}
   return (
     <>
-      <h1>My Gallery</h1>
       <main>
         <Thumbnail />
-        {/* <div>
-          This is the section for thumbnail images. Here we render a list of my
-          images and give each of them a key.
-          <ul>
-            <li>Tools</li>
-            <li>A method to render all images</li>
-            <li>
-              An event to click on the images. The event handler is how we
-              handle switching between images
-            </li>
-          </ul>
-        </div> */}
-        <div>
-          This is the section for the larger images. This container is
-          conditionally rendered
-          <ul>
-            <li>Tools</li>
-            <li>An element to contain the larger image</li>
-            <li>
-              Some conditional logic to render this element once the user has
-              clicked on the thumbnail
-            </li>
-          </ul>
-        </div>
+        {/* Initially I had FullScreenImage rendered here, but this made so sense as it's being rendered within the thumbnail component with props. This created a lot of errors for me! */}
+        {/* <FullScreenImage /> */}
       </main>
     </>
   );
