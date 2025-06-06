@@ -20,3 +20,6 @@ What went really well and what could have gone better?
 CSS references:
 https://www.w3schools.com/css/css_display_visibility.asp
 https://www.w3schools.com/css/css3_object-fit.asp
+
+JS React references:
+https://react.dev/reference/react/useEffect
