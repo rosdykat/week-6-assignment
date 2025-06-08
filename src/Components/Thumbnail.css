@@ -32,3 +32,23 @@
   object-fit: fill;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 600px) {
+
+
+.thumbnailContainer {
+  width: 100%;              
+  box-sizing: border-box;    
+}
+
+.thumbnailContainer ul {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;         
+  padding: 20px;
+  margin: 0;
+  max-width: 60%;
+  max-height: 60%;
+  object-fit: cover;
+}
+}  
