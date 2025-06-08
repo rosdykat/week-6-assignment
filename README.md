@@ -3,6 +3,7 @@ Reflections
 ## Required
 
 🎯 What requirements did you achieve?
+
 Implemented useState hook
 
 Implemented useEffect to gather and apply fetch data to thumbnail variable, as well as create a fullscreenimage upon reload of the page.
@@ -27,7 +28,7 @@ I used flex for the design on this website, I initially went for a grid, however
 
 🎯 Were there any requirements or goals that you were unable to achieve?
 
-I had a lot of difficulty with the CSS this time around, I think as we are using different components this made things trickier, I mostly got there in the end, but due to time contrainsts the thumbnail images in the mobile versions are sometimes different sizes depending on the thumbnail img size.
+I had a lot of difficulty with the CSS this time around, as using different components made things a bit more complicated (atleast for the first try). I mostly got there in the end, but due to time contrainsts the thumbnail images in the mobile versions are sometimes different sizes depending on the thumbnail img size.
 
 I couldn't hide the API key from my code, I have a general idea on how to do this, but couldn't figure it out in react. I think i'd need to assign the key to a variable like "API_KEY" and add this to the api html instead of the key directly.
 
@@ -40,7 +41,7 @@ I did not add a search function: I know we would use media queries, which we wer
 
 🏹 Feel free to add any other reflections you would like to share about your submission, for example:
 
-This task was quite challenging for me initially, and I think my biggest concern is that it takes me a while to learn the uses and definitions of the code we are using in react (useEffect, useState, conditional rendering) which meant that when writing much of this code, I felt like I truly didn't understand how it work. I spoke with Joe in a breakout room for some guidance and this helped a bit. I think I need to spend more time reading up on react feactures as although I can often make them work through using what i've learnt in our workshops, and copy/pasting our workshop code and editing to do what I want, I don't think I'd be able to use these if I didn't have previous examples to copy.
+This task was quite challenging for me initially, and I think my biggest concern is that it takes me a while to learn the uses and definitions of the code we are using in react (useEffect, useState, conditional rendering) which meant that when writing much of this code, I felt like I truly didn't understand how it worked. I spoke with Joe in a breakout room for some guidance and this helped a bit. I think I need to spend more time reading up on react feactures as although I can often make them work through using what i've learnt in our workshop and copy/pasting our workshop code and editing to do what I want, I don't think I'd be able to use these if I didn't have previous examples to copy.
 
 ## references
 
