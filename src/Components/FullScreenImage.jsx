@@ -6,7 +6,8 @@ export default function FullScreenImage({ image, onClose }) {
   return (
     // When the user clicks the image, it triggers the onclose function from the thumbnail.jsx, removing the old full screen image?
     <div className="fullscreenImage" onClick={onClose}>
-      <img src={image.url} alt={image.alt} title={image.title} id={image.id} />
+      {/* Max added a ? ( optional chaining) to image.urls as this was not working - not sure why */}
+      <img src={image.urls?.full} alt={image.description} id={image.id} />
     </div>
   );
 }
